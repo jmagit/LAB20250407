@@ -50,7 +50,7 @@
 
 #### Jenkins personalizado
 
-- Descargar Dockerfile: [jenkins-with-docker/Dockerfile](./jenkins-with-docker/Dockerfile)
+- Descargar Dockerfile: [docker/jenkins-with-docker/Dockerfile](./docker/jenkins-with-docker/Dockerfile)
 - Crear imagen
 
         docker build -t jenkins-with-docker .
