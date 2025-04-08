@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Hay que definir los siguientes parámetros en el job:
 NOMBRE=$1
 MODO=$2
 MOSTRAR=$3
