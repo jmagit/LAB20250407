@@ -32,10 +32,6 @@
 
     docker run -d --name sonarQube --publish 9000:9000 --network devops sonarqube:latest
 
-#### SonarQube Scanner
-
-    docker run --rm -v .:/usr/src -e SONAR_HOST_URL="http://host.docker.internal:9000"  sonarsource/sonar-scanner-cli
-
 #### Docker in Docker
 
     docker run -d --name jenkins-docker-in-docker --privileged ^
@@ -70,6 +66,10 @@
 
 ### Contenedores efímeros (Comandos)
 
+#### SonarQube Scanner
+
+    docker run --rm -v .:/usr/src -e SONAR_HOST_URL="http://host.docker.internal:9000"  sonarsource/sonar-scanner-cli
+
 #### Maven
 
     docker run --rm -it --name maven -v %cd%:/local -v maven-repository:/root/.m2 maven:3.8.6-eclipse-temurin-11 sh
@@ -77,10 +77,6 @@
 #### NodeJS
 
     docker run --rm -v .:/proyecto node:lts-alpine sh -c "cd /proyecto && npm test"
-
-#### SonarQube Scanner
-
-    docker run --rm -v .:/usr/src -e SONAR_HOST_URL="http://host.docker.internal:9000"  sonarsource/sonar-scanner-cli
 
 ## Kata
 
