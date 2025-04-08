@@ -1,5 +1,16 @@
 # Curso de DevOps (Jenkins)
 
+## Kata
+
+- <https://github.com/emilybache/GildedRose-Refactoring-Kata/blob/main/GildedRoseRequirements_es.md>
+
+## Repositorios
+
+- <https://github.com/jmagit/demos-devops>
+- <https://github.com/jmagit/demos-frontend-angular>
+- <https://github.com/jmagit/MOCKWebServer>
+- <https://github.com/spring-projects/spring-petclinic>
+
 ## Instalación Docker Desktop
 
 - [WSL 2 feature on Windows](https://learn.microsoft.com/es-es/windows/wsl/install)
@@ -81,14 +92,3 @@
 #### SonarQube Scanner
 
     docker run --rm -v .:/usr/src -e SONAR_HOST_URL="http://host.docker.internal:9000"  sonarsource/sonar-scanner-cli
-
-## Kata
-
-- <https://github.com/emilybache/GildedRose-Refactoring-Kata/blob/main/GildedRoseRequirements_es.md>
-
-## Repositorios
-
-- <https://github.com/jmagit/demos-devops>
-- <https://github.com/jmagit/demos-frontend-angular>
-- <https://github.com/jmagit/MOCKWebServer>
-- <https://github.com/spring-projects/spring-petclinic>
