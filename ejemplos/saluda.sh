@@ -3,6 +3,7 @@
 NOMBRE=$1
 MODO=$2
 MOSTRAR=$3
+
 if [ "$MOSTRAR" = "true" ]; then
 	echo "Hola, $NOMBRE"
 fi
