@@ -1,0 +1,9 @@
+[submodule "demos-devops"]
+	path = demos-devops
+	url = https://github.com/jmagit/demos-devops.git
+[submodule "demos-devops-blue"]
+	path = demos-devops-blue
+	url = https://github.com/jmagit/demos-devops-blue.git
+[submodule "devops-dotnet"]
+	path = devops-dotnet
+	url = https://github.com/jmagit/devops-dotnet.git
